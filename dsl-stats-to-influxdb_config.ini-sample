@@ -1,0 +1,11 @@
+[InfluxDB]
+ip-address=localhost
+port=8086
+username=
+password=
+database=
+
+[Modem]
+ip-address=
+username=
+password=

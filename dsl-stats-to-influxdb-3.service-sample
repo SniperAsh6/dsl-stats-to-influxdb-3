@@ -1,0 +1,15 @@
+[Unit]
+Description=DSL Stats to InfluxDB
+After=network-online.target
+
+[Service]
+User=pi
+Type=notify
+Environment=PYTHONUNBUFFERED=true
+ExecStart=/usr/bin/python3 /home/pi/dsl-stats-to-influxdb-3/dsl-stats-to-influxdb-3.py
+WorkingDirectory=/home/pi/dsl-stats-to-influxdb-3
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
