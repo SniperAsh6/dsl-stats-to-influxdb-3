@@ -2,7 +2,7 @@
 
 DSL Stats to Influx DB is a Python service to login (via Telnet) to the Huawei Echolife HG612 Modem, retrieve connection information and post it to Influx DB. This means you have historical in-depth insight into your connection with the ability to use something such as Grafana to display the data in a visually pleasing manner.
 
-**Note:** For this to work you will need a HG612 modem with unlocked firmware to allow Telnet access. This is done at your own risk.
+**Note:** For this to work you will need a HG612 modem with unlocked firmware to allow Telnet access. **This is done at your own risk.**
 
 ## Stats collected:
 
