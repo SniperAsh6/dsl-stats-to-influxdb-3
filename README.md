@@ -22,3 +22,7 @@ DSL Stats to Influx DB is a Python service to login (via Telnet) to the Huawei E
 * System (modem) uptime
 * Unavailable seconds (downstream)
 * Unavailable seconds (upstream)
+
+# Grafana dashboard example
+The template for the below dashboard is in the ```grafana-dashboard``` subfolder
+![HG612Dashboard](https://user-images.githubusercontent.com/39700437/60748553-0c766d80-9f87-11e9-82c0-6dfa754d1970.png)
